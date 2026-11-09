@@ -1,0 +1,33 @@
+SATNET TRACER — ESTRUTURA DE FICHEIROS
+
+Estrutura:
+  index.html
+  css/
+    style.css
+  js/
+    01-nucleo-e-interface.js
+    02-explicacoes-e-apresentacao.js
+    03-interacoes-da-barra.js
+    04-graficos-webgl.js
+    05-dispositivos-visuais.js
+    06-rede-e-protocolos.js
+    07-explicacoes-tecnicas.js
+    08-iot.js
+    09-configuracao-equipamentos.js
+    10-voip.js
+    11-exportacao-sqlite.js
+    12-seguranca-e-ataques.js
+    13-modo-professor.js
+
+COMO ABRIR
+1. Extrai a pasta do ZIP.
+2. Mantém a pasta css e a pasta js junto do index.html.
+3. Abre o index.html num navegador (Chrome, Edge ou Firefox).
+
+NOTAS IMPORTANTES
+- Os ficheiros JavaScript estão numerados porque dependem uns dos outros.
+  Não alteres a ordem das etiquetas <script> no index.html.
+- O projeto continua a carregar os tipos de letra do Google Fonts através da Internet.
+- Não apagues nem mudes os IDs/classes do HTML sem rever o JavaScript:
+  o código procura muitos elementos através desses identificadores.
+- O código original foi separado por ficheiros, sem reescrever a lógica da aplicação.
